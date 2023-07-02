@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar fx:id="menuBar" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.buykoclient.controllers.MenuController">
+  <menus>
+    <Menu fx:id="posts" mnemonicParsing="false" text="Posts">
+      <items>
+        <MenuItem fx:id="postSearch" mnemonicParsing="false" onAction="#handlePostsSearch" text="Search" />
+            <MenuItem fx:id="postCreate" mnemonicParsing="false" onAction="#handlePostCreate" text="Create" />
+      </items>
+    </Menu>
+    <Menu fx:id="users" mnemonicParsing="false" text="Users">
+      <items>
+        <MenuItem fx:id="userSearch" mnemonicParsing="false" onAction="#handleUserSearch" text="Search" />
+      </items>
+    </Menu>
+    <Menu fx:id="locations" mnemonicParsing="false" text="Locations">
+      <items>
+        <MenuItem fx:id="locationSearch" mnemonicParsing="false" onAction="#handleLocationSearch" text="Search" />
+        <MenuItem fx:id="locationCreate" mnemonicParsing="false" onAction="#handleLocationCreate" text="Create" />
+      </items>
+    </Menu>
+    <Menu fx:id="other" mnemonicParsing="false" text="Other">
+      <items>
+        <MenuItem fx:id="newsAndUpdates" mnemonicParsing="false" onAction="#handleNewsUpdates" text="News and Updates" />
+            <MenuItem fx:id="profilePicture" mnemonicParsing="false" onAction="#handleProfilePicture" text="Profile picture" />
+            <MenuItem fx:id="settings" mnemonicParsing="false" onAction="#handleSettings" text="Settings" />
+            <MenuItem fx:id="orders" mnemonicParsing="false" onAction="#handleOrders" text="Orders" />
+      </items>
+    </Menu>
+  </menus>
+</MenuBar>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.buykoclient.controllers.other.ProfilePictureController">
+    <fx:include source="menu.fxml" />
+   <ImageView fx:id="photo" fitHeight="512.0" fitWidth="512.0" layoutX="704.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+   <Button fx:id="button" layoutX="883.0" layoutY="675.0" mnemonicParsing="false" onAction="#onButton" text="Change">
+      <font>
+         <Font size="30.0" />
+      </font>
+   </Button>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<configuration>
+
+    <appender name="infoFileAppender" class="ch.qos.logback.core.FileAppender">
+        <file>logs/info.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="debugFileAppender" class="ch.qos.logback.core.FileAppender">
+        <file>logs/debug.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="hr.tvz" level="info">
+        <appender-ref ref="infoFileAppender"/>
+    </logger>
+
+    <logger name="hr.tvz" level="debug">
+        <appender-ref ref="debugFileAppender"/>
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="infoFileAppender"/>
+    </root>
+
+</configuration>

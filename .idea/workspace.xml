@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12a37133-4367-470c-9ad4-b187f5fc6e07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/BuykoApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/config/IniConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/config/Translate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/MenuController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/StartupController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/location/LocationCreateController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/location/LocationEditController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/location/LocationSearchController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/location/LocationViewController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/other/NewsUpdatesController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/other/OrdersController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/other/ProfilePictureController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/other/SettingsController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/post/PostCreateController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/post/PostEditController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/post/PostSearchController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/post/PostViewController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/user/LoginController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/user/ProfileController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/user/RegisterController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/user/UserEditController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/controllers/user/UserSearchController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/model/Location.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/model/NewsEntry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/model/Order.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/model/Post.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/model/UpdatesEntry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/model/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/tcp/TcpClientProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/tcp/ThreadlessTcpClientProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/util/BlockListService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/util/JsonUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/util/Logging.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/util/PdfUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/util/ProfilePhotoUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/blockList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/locationCreate.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/locationEdit.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/locationSearch.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/locationView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/newsAndUpdates.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/orders.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/postCreate.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/postEdit.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/postSearch.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/postView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/profile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/profilePicture.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/settings.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/startup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/userEdit.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/tvz/buykoclient/userSearch.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/phPicture.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HleFjEeh5fXB3YCXM7JrZ3Lmq2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/sven/Desktop/NTP/BuykoApplication/BuykoClient",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/tcp" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/hr/tvz/buykoclient/util" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="hr.tvz.buykoclient.controllers.other" />
+      <recent name="hr.tvz.buykoclient.controllers.user" />
+      <recent name="hr.tvz.buykoclient.controllers.post" />
+      <recent name="hr.tvz.buykoclient.controllers.location" />
+      <recent name="hr.tvz.buykoclient.controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.BuykoApplicationKt">
+    <configuration name="TcpClientProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.tvz.buykoclient.tcp.TcpClientProcess" />
+      <module name="BuykoClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hr.tvz.buykoclient.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadlessTcpClientProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.tvz.buykoclient.tcp.ThreadlessTcpClientProcess" />
+      <module name="BuykoClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hr.tvz.buykoclient.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuykoApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hr.tvz.buykoclient.BuykoApplicationKt" />
+      <module name="BuykoClient" />
+      <shortenClasspath name="NONE" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.time=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.BuykoApplicationKt" />
+        <item itemvalue="Application.TcpClientProcess" />
+        <item itemvalue="Application.ThreadlessTcpClientProcess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12a37133-4367-470c-9ad4-b187f5fc6e07" name="Changes" comment="" />
+      <created>1667319772861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667319772861</updated>
+      <workItem from="1667319774220" duration="24459000" />
+      <workItem from="1668864001575" duration="643000" />
+      <workItem from="1673188800793" duration="695000" />
+      <workItem from="1675604873491" duration="27495000" />
+      <workItem from="1677060738240" duration="6968000" />
+      <workItem from="1683038991100" duration="43059000" />
+      <workItem from="1684922357927" duration="62588000" />
+      <workItem from="1686338027456" duration="51215000" />
+      <workItem from="1688104920603" duration="16076000" />
+      <workItem from="1688228830965" duration="6560000" />
+      <workItem from="1688244395633" duration="19406000" />
+      <workItem from="1688319562901" duration="6560000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bin" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="hr.tvz.buykoclient.model.User" memberName="username" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

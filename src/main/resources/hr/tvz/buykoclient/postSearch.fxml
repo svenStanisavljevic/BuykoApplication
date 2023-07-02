@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.buykoclient.controllers.post.PostSearchController">
+   <ChoiceBox fx:id="categoryFilter" layoutX="729.0" layoutY="57.0" prefHeight="53.0" prefWidth="181.0" />
+    <fx:include source="menu.fxml" />
+   <TableView fx:id="postsTable" layoutX="11.0" layoutY="187.0" prefHeight="904.0" prefWidth="1895.0">
+     <columns>
+       <TableColumn fx:id="title" prefWidth="322.0" text="Title" />
+       <TableColumn fx:id="description" prefWidth="991.0" text="Description" />
+         <TableColumn fx:id="price" prefWidth="271.0" text="Price" />
+         <TableColumn fx:id="category" prefWidth="309.0" text="Category" />
+     </columns>
+   </TableView>
+
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.buykoclient.controllers.user.UserSearchController">
+    <fx:include source="menu.fxml" />
+   <TableView fx:id="userTable" layoutX="20.0" layoutY="281.0" prefHeight="786.0" prefWidth="1884.0">
+     <columns>
+         <TableColumn fx:id="username" prefWidth="477.0" text="Username" />
+       <TableColumn fx:id="firstName" prefWidth="352.0" text="First Name" />
+       <TableColumn fx:id="lastName" prefWidth="352.0" text="Last Name" />
+         <TableColumn fx:id="email" prefWidth="305.0" text="Email" />
+         <TableColumn fx:id="phoneNumber" prefWidth="397.0" text="Phone Number" />
+     </columns>
+   </TableView>
+</AnchorPane>

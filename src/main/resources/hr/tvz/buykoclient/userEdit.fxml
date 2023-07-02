@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.buykoclient.controllers.user.UserEditController">
+   <fx:include source="menu.fxml" />
+   <children>
+      <TextField fx:id="firstName" layoutX="99.0" layoutY="246.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <Label fx:id="cityLabel" layoutX="821.0" layoutY="312.0" text="Town or city">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="country" accessibleText="pick" layoutX="821.0" layoutY="143.0" prefHeight="56.0" prefWidth="392.0" />
+      <TextField fx:id="username" layoutX="99.0" layoutY="143.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="lastName" layoutX="99.0" layoutY="348.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="email" layoutX="99.0" layoutY="454.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="phoneNumber" layoutX="101.0" layoutY="562.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="region" accessibleText="pick" layoutX="821.0" layoutY="246.0" prefHeight="56.0" prefWidth="392.0" />
+      <ChoiceBox fx:id="city" accessibleText="pick" layoutX="821.0" layoutY="348.0" prefHeight="56.0" prefWidth="392.0" />
+      <Label fx:id="countryLabel" layoutX="821.0" layoutY="107.0" text="Country">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="regionLabel" layoutX="821.0" layoutY="210.0" text="State or province">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneNumberLabel" layoutX="101.0" layoutY="522.0" text="Phone number">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" layoutX="99.0" layoutY="418.0" text="Email">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastNameLabel" layoutX="100.0" layoutY="312.0" text="Last name">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameLabel" layoutX="99.0" layoutY="107.0" text="Username">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstNameLabel" layoutX="99.0" layoutY="210.0" text="First name">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="884.0" layoutY="14.0" text="Edit user">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="submit" layoutX="877.0" layoutY="747.0" mnemonicParsing="false" onAction="#submit" text="Submit">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="error" layoutX="576.0" layoutY="803.0" prefHeight="63.0" prefWidth="768.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
